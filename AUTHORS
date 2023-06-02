@@ -5,7 +5,24 @@ Authors
 
 ## Billy Wellington
 
-<img src="242356371_713247509579966_727733129918716563_n.jpg" alt="Profile Picture" width="100" height="100" style="border-radius: 50%;">
+<div class="profile-picture">
+    <img src="242356371_713247509579966_727733129918716563_n.jpg" alt="Profile Picture" width="200" height="200" >
+</div>
+
+<style>
+.profile-picture {
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  transition: transform 0.3s;
+}
+
+.profile-picture:hover {
+  transform: scale(1.2);
+}
+</style>
 
 
 ### Short Bio:
@@ -14,6 +31,6 @@ I am a passionate programmer and lifelong learner, on a journey to master C prog
 Contact Information:
 - Email: billierangwani@gmail.com
 - Twitter: [@billierangwani](https://twitter.com/@billierangwani)
-- GitHub: [YourGitHubUsername](https://github.com/YourGitHubUsername)
+- GitHub: [billywellington](https://github.com/YourGitHubUsername)
 
 Feel free to reach out to me via email or Twitter. I'm always open to discussions, collaboration, and new opportunities.
